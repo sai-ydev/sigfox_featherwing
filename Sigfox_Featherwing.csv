@@ -1,0 +1,15 @@
+"Part";"Value";"Device";"Package";"Description";"AVAILABILITY";"DESCRIPTION";"MF";"MP";"MPN";"OC_FARNELL";"OC_NEWARK";"PACKAGE";"POPULARITY";"PRICE";"PROD_ID";"VALUE";
+"D1";"250mA/100V";"DIODE-BAS16J";"SOD-323";"Diode";"";"";"";"";"";"";"";"";"";"";"DIO-09646";"250mA/100V";
+"D2";"250mA/100V";"DIODE-BAS16J";"SOD-323";"Diode";"";"";"";"";"";"";"";"";"";"";"DIO-09646";"250mA/100V";
+"D3";"Orange";"LED-YELLOW0603";"LED-0603";"Yellow SMD LED";"";"";"";"";"";"";"";"";"";"";"DIO-09003";"Yellow";
+"D4";"Yellow";"LED-YELLOW0603";"LED-0603";"Yellow SMD LED";"";"";"";"";"";"";"";"";"";"";"DIO-09003";"Yellow";
+"FL1";"BLM18SG331TN1D";"BLM18SG331TN1D";"BEADC1608X65N";"IC REG BOOST ADJ 85MA TSOT23-8";"Unavailable";" 330 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 _1608 Metric_ 1.5A 70mOhm ";"Murata Electronics";"BLM18SG331TN1D";"";"";"";"1608 Murata";"";"None";"";"";
+"J1";"";"6_PIN_SERIAL_TARGETSILK";"6_PIN_SERIAL_TARGET_SIDE_W_SILK";"6-pin header connection for use with the "FTDI BASIC" pinout - TARGET SIDE.";"";"";"";"";"";"";"";"";"";"";"";"";
+"MS1";"FEATHERWING";"FEATHERWING";"FEATHERWING";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"R1";"150";"150OHM-0603-1/10W-1%";"0603";"150Ω resistor";"";"";"";"";"";"";"";"";"";"";"RES-11028";"150";
+"R2";"150";"150OHM-0603-1/10W-1%";"0603";"150Ω resistor";"";"";"";"";"";"";"";"";"";"";"RES-11028";"150";
+"R4";"5.6k";"5.6KOHM-0603-1/10W-1%";"0603";"5.6kΩ resistor";"";"";"";"";"";"";"";"";"";"";"RES-12378";"5.6k";
+"RX";"0R-JUMPB";"0R-JUMPB";"B0R-JMP";"SMD 0R 0805 Jumper";"";"";"";"";"";"";"";"";"0";"";"";"";
+"TX";"0R-JUMPB";"0R-JUMPB";"B0R-JMP";"SMD 0R 0805 Jumper";"";"";"";"";"";"";"";"";"0";"";"";"";
+"U1";"RC1692";"RC1692";"MODULE_RC1682-SIG";"SIGFOX RF Module 868MHz 25, 4x12, 7x3, 3mm";"Unavailable";" RC1682-SIG ";"Radiocrafts AS";"RC1682-SIG";"";"";"";"Module Radiocrafts";"";"None";"";"";
+"X1";"SMA-SMD";"SMA-SMD";"SMA-SMD";"SMA 50 Ohm Straight Jack Receptacle - Surface Mount";"";"";"";"";"";"unknown";"unknown";"";"0";"";"";"";

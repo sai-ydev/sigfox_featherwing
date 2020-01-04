@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2550,10 +2550,10 @@ Used in manufacturing several products at SparkFun.
 <label x="190.5" y="60.96" size="1.016" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RX" gate="-0R" pin="1"/>
-<wire x1="147.32" y1="121.92" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="124.46" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
-<label x="142.24" y="124.46" size="1.016" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
+<pinref part="TX" gate="-0R" pin="3"/>
+<wire x1="147.32" y1="104.14" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="101.6" x2="142.24" y2="101.6" width="0.1524" layer="91"/>
+<label x="142.24" y="101.6" size="1.016" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FTDI_RX" class="0">
@@ -2563,10 +2563,10 @@ Used in manufacturing several products at SparkFun.
 <label x="190.5" y="63.5" size="1.016" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TX" gate="-0R" pin="3"/>
-<wire x1="147.32" y1="104.14" x2="147.32" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="99.06" x2="142.748" y2="99.06" width="0.1524" layer="91"/>
-<label x="142.748" y="99.06" size="1.016" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
+<pinref part="RX" gate="-0R" pin="1"/>
+<wire x1="147.32" y1="121.92" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="124.46" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
+<label x="142.24" y="124.46" size="1.016" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FTHR_TX" class="0">

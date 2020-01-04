@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1022,22 +1022,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="FTDI_TX">
 <contactref element="J1" pad="P$2"/>
-<contactref element="RX" pad="1"/>
-<wire x1="6.985" y1="8.382" x2="8.382" y2="8.382" width="0.3048" layer="1"/>
-<wire x1="8.382" y1="8.382" x2="8.636" y2="8.636" width="0.3048" layer="1"/>
-<wire x1="8.636" y1="10.3632" x2="8.9916" y2="10.7188" width="0.3048" layer="1"/>
-<wire x1="8.9916" y1="10.7188" x2="9.955" y2="10.7188" width="0.3048" layer="1"/>
-<wire x1="9.955" y1="10.7188" x2="10.1092" y2="10.5646" width="0.3048" layer="1"/>
-<wire x1="8.636" y1="8.636" x2="8.636" y2="10.3632" width="0.3048" layer="1"/>
+<contactref element="TX" pad="3"/>
+<wire x1="6.985" y1="8.382" x2="11.2268" y2="8.382" width="0.254" layer="16"/>
+<wire x1="11.2268" y1="8.382" x2="11.684" y2="8.8392" width="0.254" layer="16"/>
+<wire x1="11.684" y1="8.8392" x2="11.684" y2="10.922" width="0.254" layer="16"/>
+<via x="11.684" y="10.922" extent="1-16" drill="0.35"/>
+<wire x1="11.3266" y1="12.524" x2="10.16" y2="12.524" width="0.254" layer="1"/>
+<wire x1="11.684" y1="10.922" x2="11.684" y2="12.1666" width="0.254" layer="1"/>
+<wire x1="11.684" y1="12.1666" x2="11.3266" y2="12.524" width="0.254" layer="1"/>
 </signal>
 <signal name="FTDI_RX">
 <contactref element="J1" pad="P$3"/>
-<contactref element="TX" pad="3"/>
-<wire x1="10.16" y1="12.524" x2="8.968" y2="12.524" width="0.3048" layer="1"/>
-<wire x1="8.968" y1="12.524" x2="8.636" y2="12.192" width="0.3048" layer="1"/>
-<wire x1="8.636" y1="12.192" x2="8.636" y2="11.6078" width="0.3048" layer="1"/>
-<wire x1="8.636" y1="11.6078" x2="7.9502" y2="10.922" width="0.3048" layer="1"/>
-<wire x1="7.9502" y1="10.922" x2="6.985" y2="10.922" width="0.3048" layer="1"/>
+<contactref element="RX" pad="1"/>
+<wire x1="10.1092" y1="10.5646" x2="8.6632" y2="10.5646" width="0.254" layer="1"/>
+<wire x1="8.6632" y1="10.5646" x2="8.3058" y2="10.922" width="0.254" layer="1"/>
+<wire x1="8.3058" y1="10.922" x2="6.985" y2="10.922" width="0.254" layer="1"/>
 </signal>
 <signal name="FTHR_TX">
 <contactref element="MS1" pad="15"/>
